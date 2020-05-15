@@ -13,6 +13,7 @@ NOTICE: If new version contain new classes (for example in EAV) or changed logic
 You are using this module at your own risk!
 
 Inspiration: https://medium.com/@egorshytikov/magento-0-downtime-deployment-2-9a6727efd57a
+
 Thanks Yegor Shytikov!
 
 This module will work only with Magento 2.3.0 and higher
