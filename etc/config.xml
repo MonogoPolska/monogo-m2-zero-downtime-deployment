@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Monogo
+ * @copyright Copyright (c) 2020 Monogo (https://monogo.pl)
+ * @package Monogo_ZeroDowntimeDeployment
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <zerodowntimedeployment>
+            <general>
+                <enabled>0</enabled>
+                <logger_enabled>0</logger_enabled>
+            </general>
+        </zerodowntimedeployment>
+    </default>
+</config>

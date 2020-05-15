@@ -1,0 +1,9 @@
+.config-nav-block.monogo-tab strong:before {
+    background: url(../images/monogo-icon.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    content: '';
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
+}

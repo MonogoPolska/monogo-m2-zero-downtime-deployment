@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @author Monogo
+ * @copyright Copyright (c) 2020 Monogo (https://monogo.pl)
+ * @package Monogo_ZeroDowntimeDeployment
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Monogo_ZeroDowntimeDeployment::config" title="Zero Downtime Deployment settings" translate="title" sortOrder="9000"/>
+            </resource>
+        </resources>
+    </acl>
+</config>
