@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Monogo\ZeroDowntimeDeployment\Plugin\Module\Plugin;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
@@ -62,9 +64,9 @@ class DbStatusValidatorPlugin
         callable $proceed,
         FrontController $originalSubject,
         RequestInterface $request
-    ) {
+    ): void {
         if (!$this->getConfig(self::CONFIG_MODULE_ENABLED)) {
-            return $proceed($originalSubject, $request);
+            $proceed($originalSubject, $request);
         }
 
         if ($this->getConfig(self::CONFIG_LOGGER_ENABLED)) {
@@ -82,9 +84,9 @@ class DbStatusValidatorPlugin
      * @param string $configPath
      * @param int    $storeId
      *
-     * @return mixed
+     * @return string
      */
-    protected function getConfig($configPath, $storeId = null)
+    protected function getConfig($configPath, $storeId = null): string
     {
         return $this->scopeConfig->getValue(
             $configPath,

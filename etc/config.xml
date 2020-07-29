@@ -11,8 +11,8 @@
     <default>
         <zerodowntimedeployment>
             <general>
-                <enabled>0</enabled>
-                <logger_enabled>0</logger_enabled>
+                <enabled>1</enabled>
+                <logger_enabled>1</logger_enabled>
             </general>
         </zerodowntimedeployment>
     </default>

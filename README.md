@@ -16,7 +16,7 @@ Inspiration: https://medium.com/@egorshytikov/magento-0-downtime-deployment-2-9a
 
 Thanks Yegor Shytikov!
 
-This module will work only with Magento 2.3.0 and higher
+This module will work only with Magento 2.4.0 and higher
 
 
 # **Install**
