@@ -2,12 +2,12 @@
     "name": "monogo/zero-downtime-deployment",
     "description": "Magento 2 module to achieve zero downtime deployment",
     "require": {
-        "php": "~7.3.0||~7.4.0",
+        "php": ">=7.4",
         "magento/magento-composer-installer": "*",
         "magento/framework": "^103.0"
     },
     "type": "magento2-module",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "license": "MIT",
     "keywords": ["Magento 2", "zero downtime deployment"],
     "authors": [
